@@ -1,0 +1,54 @@
+/*
+Theme Name: AML Theme
+Theme URI: NA
+Description: Custom theme for AML.
+Version: 1.0
+Author: Kevin Gorham
+Author URI: findkeving.com  
+*/
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(./fonts/avenir_next/AvenirNext-Regular.ttf);
+}
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(./fonts/avenir_next/AvenirNext-Bold.ttf);
+    font-weight: bold;
+}
+
+p {
+    font-family: AvenirNext;
+}
+
+#nav {
+    background-color: black;
+    height: 80px;
+}    
+
+#logo {
+    margin-top: 13px;
+}
+
+.nav-links {
+    color: white;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 26px
+}
+
+#nav-search {
+    max-width: 270px;
+    width:100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#cart-icon, #menu-icon {
+    margin-top: 31px;
+    /* margin-left: 50px; */
+}
