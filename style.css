@@ -112,6 +112,10 @@ Author URI: findkeving.com
     padding-bottom: 10px;
 }
 
+#three-boxes {
+    padding-left: 15px;
+}
+
 #cart-div {
     background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg");
     background-repeat: no-repeat;
@@ -120,4 +124,20 @@ Author URI: findkeving.com
     height: 300px;
     width: 100%;
     margin-bottom: 10px;
+}
+
+#terp-div, #equip-div {
+    max-height: 270px;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    width: 100%
+}
+
+#terp-div {
+    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Terps-opt.jpg");
+}
+
+#equip-div {
+    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Equipment-opt.jpg");
 }
