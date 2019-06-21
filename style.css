@@ -62,7 +62,7 @@ Author URI: findkeving.com
     background-size: cover;
     height: 450px;
     width: 100%;
-    
+    margin-bottom: 10px;    
 }
 
 #hero-flask-logo {
@@ -89,5 +89,14 @@ Author URI: findkeving.com
 }
 
 #hero-btn {
-
+    color: white;
+    background-color: #DDBD59;
+    border: none;
+    font-family: montserrat;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
