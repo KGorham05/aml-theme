@@ -100,7 +100,8 @@ Author URI: findkeving.com
 }
 
 #stab-div-alt {
-    max-width: 43vw;
+    max-width: 42.28%;
+    float: left;
 }
 
 .col, [class*="col-"] {
@@ -108,17 +109,14 @@ Author URI: findkeving.com
     padding-left: 0;
 }
 
-.pad-right {
-    padding-right: 10px;
+.margin-right {
+    margin-right: 10px;
 }
 
-.pad-btm {
-    padding-bottom: 10px;
-}
 
-#three-boxes {
+/* #three-boxes {
     padding-left: 15px;
-}
+} */
 
 #cart-div {
     background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg");
@@ -126,22 +124,25 @@ Author URI: findkeving.com
     background-position: center;
     background-size: cover;
     height: 300px;
+    max-width: 57%;
     width: 100%;
     margin-bottom: 10px;
+    
+    float: right;
 }
 
-#terp-div, #equip-div {
+/* #terp-div, #equip-div {
     max-height: 270px;
     background-repeat: none;
     background-position: center;
     background-size: cover;
     width: 100%
-}
+} */
 
-#terp-div {
+/* #terp-div {
     background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Terps-opt.jpg");
-}
+} */
 
-#equip-div {
+/* #equip-div {
     background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Equipment-opt.jpg");
-}
+} */
