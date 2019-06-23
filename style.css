@@ -99,6 +99,10 @@ Author URI: findkeving.com
     padding-bottom: 10px;
 }
 
+#stab-div-alt {
+    max-width: 43vw;
+}
+
 .col, [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
