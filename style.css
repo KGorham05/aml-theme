@@ -50,8 +50,10 @@ Author URI: findkeving.com
 
 #cart-icon, #menu-icon {
     margin-top: 31px;
-    /* margin-left: 50px; */
+    position: relative;
+    left: 50px;
 }
+
 
 #hero-div {
     background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/hero-optimized.jpg");
