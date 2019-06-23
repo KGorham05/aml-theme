@@ -112,6 +112,11 @@ Author URI: findkeving.com
     width: 100%;
 }
 
+#stab-btn {
+    position: relative;
+    top: 269px;
+}
+
 .col, [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
@@ -138,6 +143,11 @@ Author URI: findkeving.com
     float: right;
 }
 
+#cart-btn {
+    position: relative;
+    top: 129px;
+}
+
 #terp-div, #equip-div {
     max-height: 270px;
     background-repeat: none;
@@ -153,7 +163,11 @@ Author URI: findkeving.com
     background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Terps-opt.jpg");
     max-width: 34.57142857142857%;
     float: left;
-    
+}
+
+#terp-btn, #equip-btn {
+    position: relative;
+    top: 114px
 }
 
 #equip-div {
