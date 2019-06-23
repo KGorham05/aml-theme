@@ -132,8 +132,7 @@ Author URI: findkeving.com
 } */
 
 #cart-div {
-    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg");
-    background-repeat: no-repeat;
+    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg"), no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -168,6 +167,14 @@ Author URI: findkeving.com
 #terp-btn, #equip-btn {
     position: relative;
     top: 114px
+}
+
+.cat-btn {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    width: 164px;
+    height: 40px;
 }
 
 #equip-div {
