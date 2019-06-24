@@ -179,3 +179,54 @@ Author URI: findkeving.com
     max-width:21.71%;
     float: right;
 }
+
+#post-row {
+    margin-top: 120px;
+}
+
+#terpology-img {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/terpologoy-opt.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    
+}
+
+#team-img {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/team-example.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.padding-back {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gold-plant-icon {
+    margin-top: 50px;
+}
+
+.post-title {
+    font-size: 24px;
+    font-family: AvenirNext;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.post-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#social-media-row {
+    margin-top: 127px;
+}
+
+#footer {
+    background: black;
+    color: white;
+    height: 350px; 
+}
