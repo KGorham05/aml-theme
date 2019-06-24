@@ -131,7 +131,7 @@ Author URI: findkeving.com
     background-position: center;
     background-size: cover;
     height: 300px;
-    max-width: 57%;
+    max-width: 57.1%;
     width: 100%;
     margin-bottom: 10px;
     float: right;
@@ -151,6 +151,7 @@ Author URI: findkeving.com
     height: 100%;
     clear: right;
     margin-left: 10px;
+    float:right;
 }
 
 #terp-div {
@@ -246,4 +247,44 @@ Author URI: findkeving.com
     background: black;
     color: white;
     height: 300px; 
+}
+
+h3 {
+    font-size: 20px;
+    font-family: AvenirNext;
+    font-weight: 700;
+
+}
+
+.foot-link {
+    color: white;
+}
+
+#email-form {
+    height: 35px;
+}
+#email-input {
+    width: 100%;
+    max-width: 274px;
+    height: 100%;
+    
+
+}
+
+#email-btn {
+    height: 100%;
+    width: 46px;
+    position: relative;
+    right: 4px;
+    background-color: #DDBD59;
+    color: white;
+    border: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#copy {
+    position: relative;
+    top:70px;
 }
