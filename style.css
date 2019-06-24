@@ -286,5 +286,29 @@ h3 {
 
 #copy {
     position: relative;
-    top:70px;
+    top:85px;
+    font-size: 12px;
+    font-family: montserrat;
+
+}
+
+@media only screen and (min-width: 824px) and (max-width: 1388px) {
+    #equip-div {
+        
+        max-width:20.71%;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 823px) {
+    #terp-div {
+        margin-left: 5px;
+    }
+
+    #equip-div {
+        
+        max-width:20%;
+        float: right;
+        margin-left: 5px;
+    }
 }
