@@ -225,8 +225,25 @@ Author URI: findkeving.com
     margin-top: 127px;
 }
 
+#social-media-row {
+    margin-bottom: 29px;
+}
+
+.marg-right {
+   margin-right: 10px; 
+}
+
+#plant-foot-img {
+    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/btm-plants-opt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+    height: 483px;
+}
+
 #footer {
     background: black;
     color: white;
-    height: 350px; 
+    height: 300px; 
 }
