@@ -56,7 +56,7 @@ Author URI: findkeving.com
 
 
 #hero-div {
-    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/hero-optimized.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/hero-optimized.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +104,7 @@ Author URI: findkeving.com
 #stab-div {
     max-width: 42.28%;
     float: left;
-    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/stab-opt-3.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/stab-opt-3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -126,13 +126,8 @@ Author URI: findkeving.com
     margin-right: 10px;
 }
 
-
-/* #three-boxes {
-    padding-left: 15px;
-} */
-
 #cart-div {
-    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg"), no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg"), no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -159,7 +154,8 @@ Author URI: findkeving.com
 }
 
 #terp-div {
-    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Terps-opt.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Terps-opt.jpg"), no-repeat;
+    background-size: cover;
     max-width: 34.57142857142857%;
     float: left;
 }
@@ -178,7 +174,8 @@ Author URI: findkeving.com
 }
 
 #equip-div {
-    background-image: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Equipment-opt.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Equipment-opt.jpg");
+    background-size: cover;
     max-width:21.71%;
     float: right;
 }
