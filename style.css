@@ -101,6 +101,11 @@ Author URI: findkeving.com
     padding-bottom: 10px;
 }
 
+#hero-btn:hover {
+    opacity: .7;
+    transition: opacity .3s ease-in-out;
+}
+
 #stab-div {
     max-width: 42.28%;
     float: left;
