@@ -40,6 +40,12 @@ Author URI: findkeving.com
     top: 26px
 }
 
+
+.nav-links:hover {
+    color:#DDBD59;
+    text-decoration: none;
+}
+
 #nav-search {
     max-width: 270px;
     width:100%;
