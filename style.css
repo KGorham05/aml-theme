@@ -163,13 +163,14 @@ Author URI: findkeving.com
 
 #terp-btn, #equip-btn {
     position: relative;
-    top: 114px
+    top: 94px;
+    min-width: 200px;
 }
 
 .cat-btn {
     background: none;
     color: white;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 164px;
     height: 40px;
 }
