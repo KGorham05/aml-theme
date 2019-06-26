@@ -1,0 +1,326 @@
+/*
+Theme Name: AML Theme
+Theme URI: aftermathlab.com
+Description: Custom theme for AML.
+Version: 1.0
+Author: Kevin Gorham
+Author URI: findkeving.com  
+*/
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(./fonts/avenir_next/AvenirNext-Regular.ttf);
+}
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(./fonts/avenir_next/AvenirNext-Bold.ttf);
+    font-weight: bold;
+}
+
+
+
+#nav {
+    background-color: black;
+    height: 80px;
+}    
+
+#logo {
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.nav-links {
+    color: white;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 26px
+}
+
+
+.nav-links:hover {
+    color:#DDBD59;
+    text-decoration: none;
+}
+
+#nav-search {
+    max-width: 270px;
+    width:100%;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+#cart-icon, #menu-icon {
+    margin-top: 31px;
+    position: relative;
+    left: 50px;
+}
+
+
+#hero-div {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/hero-optimized.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 10px;    
+}
+
+#hero-flask-logo {
+    margin-top: 90px;
+}
+
+#hero-title {
+    color: white;
+    font-family: AvenirNext;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: 23px;
+}   
+
+#hero-tag-line {
+    max-width: 592px;
+    margin: auto;
+    font-family: AvenirNext;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+#hero-btn {
+    color: white;
+    background-color: #DDBD59;
+    border: none;
+    font-family: montserrat;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+#hero-btn:hover {
+    opacity: .7;
+    transition: opacity .3s ease-in-out;
+}
+
+#stab-div {
+    max-width: 42.28%;
+    float: left;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/stab-opt-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+}
+
+#stab-btn {
+    position: relative;
+    top: 269px;
+}
+
+.col, [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+#cart-div {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/cart-opt-3.jpg"), no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    max-width: 57.1%;
+    width: 100%;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#cart-btn {
+    position: relative;
+    top: 129px;
+}
+
+#terp-div, #equip-div {
+    max-height: 270px;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    clear: right;
+    margin-left: 10px;
+    float:right;
+}
+
+#terp-div {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Terps-opt.jpg"), no-repeat;
+    background-size: cover;
+    max-width: 34.57142857142857%;
+    float: left;
+}
+
+#terp-btn, #equip-btn {
+    position: relative;
+    top: 94px;
+    min-width: 200px;
+}
+
+.cat-btn {
+    background: none;
+    color: white;
+    /* border: 2px solid white; */
+    width: 164px;
+    height: 40px;
+}
+
+#equip-div {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Equipment-opt.jpg");
+    background-size: cover;
+    max-width:21.61%;
+    float: right;
+}
+
+#post-row {
+    margin-top: 120px;
+}
+
+#terpology-img {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/terpologoy-opt.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    
+}
+
+#team-img {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/team-example.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.padding-back {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gold-plant-icon {
+    margin-top: 50px;
+}
+
+.post-title {
+    font-size: 24px;
+    font-family: AvenirNext;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.post-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#social-media-row {
+    margin-top: 127px;
+}
+
+#social-media-row {
+    margin-bottom: 29px;
+}
+
+.marg-right {
+   margin-right: 10px; 
+}
+
+#plant-foot-img {
+    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/btm-plants-opt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+    height: 483px;
+}
+
+#footer {
+    background: black;
+    color: white;
+    height: 300px; 
+}
+
+h3 {
+    font-size: 20px;
+    font-family: AvenirNext;
+    font-weight: 700;
+
+}
+
+.foot-link {
+    color: white;
+}
+
+#email-form {
+    height: 35px;
+}
+#email-input {
+    width: 100%;
+    max-width: 274px;
+    height: 100%;
+    
+
+}
+
+#email-btn {
+    height: 100%;
+    width: 46px;
+    position: relative;
+    right: 4px;
+    background-color: #DDBD59;
+    color: white;
+    border: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#copy {
+    position: relative;
+    top:85px;
+    font-size: 12px;
+    font-family: montserrat;
+
+}
+
+@media only screen and (min-width: 824px) and (max-width: 1388px) {
+    #equip-div {
+        
+        max-width:20.71%;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 823px) {
+    #terp-div {
+        margin-left: 5px;
+    }
+
+    #equip-div {
+        
+        max-width:20%;
+        float: right;
+        margin-left: 5px;
+    }
+}
