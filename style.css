@@ -54,7 +54,7 @@ Author URI: findkeving.com
     background-size: cover;
     height: 450px;
     width: 100%;
-    margin-bottom: 10px;    
+    margin-bottom: .7vw;    
 }
 
 #hero-flask-logo {
@@ -107,6 +107,7 @@ Author URI: findkeving.com
     background-size: cover;
     height: 580px;
     width: 100%;
+    margin-bottom: .7vw;
 }
 
 #lab-btn {
@@ -131,7 +132,7 @@ Author URI: findkeving.com
     /* max-width: 57.1%; */
     max-width: 98.78%;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: .7vw;
     float: left;
     margin-left: .7vw;
 }
@@ -155,9 +156,10 @@ Author URI: findkeving.com
 #terp-div {
     background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("https://media.istockphoto.com/photos/researcher-in-the-forest-picture-id187613188"), no-repeat;
     background-size: cover;
-    max-width: 34.57142857142857%;
+    max-width: 60.65%;
     float: left;
     margin-left: .7vw;
+    /* min-width: 220px; */
 }
 
 #terp-btn, #equip-btn {
@@ -177,7 +179,7 @@ Author URI: findkeving.com
 #equip-div {
     background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/Equipment-opt.jpg");
     background-size: cover;
-    max-width: 62.9%;
+    max-width: 36.9%;
     margin-left: .7vw;
 }
 
