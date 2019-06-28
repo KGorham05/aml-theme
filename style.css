@@ -395,8 +395,18 @@ h3 {
 }
 
 @media only screen and (max-width: 768px) {
+    #lab-div {
+        margin-left: .7vw;
+        max-width: 99%;
+    }
+    
+    #terp-div, #equip-div {
+        max-width: 99%;
+        margin-bottom: .7vw;
+    }
+    
     #post-row {
-        margin-top: 300px;
+        margin-top: 500px;
     } 
 
     #footer {
