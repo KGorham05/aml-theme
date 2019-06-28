@@ -48,11 +48,7 @@ Author URI: findkeving.com
     text-decoration: none !important;
 }
 
-#first-nav-item {
-    position: relative;
-    
 
-}
 /* #nav-search {
     max-width: 270px;
     width:100%;
@@ -403,6 +399,16 @@ h3 {
 }
 
 /* Media Queries */
+
+@media only screen and (max-width: 992px) {
+   .res-dropdown {
+    position: relative;
+    left: 44vw;
+    } 
+}
+
+
+
 @media only screen and (min-width: 824px) and (max-width: 1388px) {
     #equip-div {
         
