@@ -411,6 +411,12 @@ h3 {
 
     #footer {
         height: 600px;
+        padding-left: 10px;
+    }
+
+    .foot-head {
+        margin-top: 10px;
+
     }
  }
 
