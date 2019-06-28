@@ -265,12 +265,11 @@ h3 {
 #email-form {
     height: 35px;
 }
+
 #email-input {
     width: 100%;
     max-width: 274px;
     height: 100%;
-    
-
 }
 
 #email-btn {
@@ -370,7 +369,7 @@ h3 {
 
 .module:hover img {
   opacity: 0;
-  transition: opacity .2s ease-in-out;
+  transition: opacity .3s ease-in-out;
 }
 
 .module:hover .module__contents {
@@ -408,6 +407,10 @@ h3 {
     #post-row {
         margin-top: 500px;
     } 
+
+    #social-media-row {
+        margin-left: 10px;
+    }
 
     #footer {
         height: 600px;
