@@ -394,5 +394,13 @@ h3 {
     } 
 }
 
+@media only screen and (max-width: 768px) {
+    #post-row {
+        margin-top: 300px;
+    } 
 
+    #footer {
+        height: 600px;
+    }
+ }
 
