@@ -211,6 +211,8 @@ Author URI: findkeving.com
     margin-top: 50px;
 }
 
+/* Blog section */
+
 .post-title {
     font-size: 24px;
     font-family: AvenirNext;
@@ -224,6 +226,8 @@ Author URI: findkeving.com
     padding-right: 20px;
 }
 
+/* Social Media Row */
+
 #social-media-row {
     margin-top: 127px;
 }
@@ -236,6 +240,32 @@ Author URI: findkeving.com
    margin-right: 10px; 
 }
 
+
+#ig-logo {
+    position: relative;
+    top: 56px;
+    height: 51px;
+    width: 51px;
+}
+
+#ig-tag {
+    font-size: 24px;
+    font-family: AvenirNext;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 70px;
+}
+
+#social-1 {
+    background: red;
+    height: 214px;
+    width: 214px;
+    float: left;
+}
+
+
+/* Footer */
 #plant-foot-img {
     background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/btm-plants-opt.jpg");
     background-position: center;
@@ -392,7 +422,7 @@ h3 {
     left: 44vw;
     } 
     #footer {
-        height: 600px;
+        height: 630px;
         padding-left: 10px;
     }
 }
