@@ -23,6 +23,7 @@ Author URI: findkeving.com
 #nav {
     background-color: black;
     height: 80px;
+    border-bottom: 1px solid grey;
 }    
 
 #logo {
@@ -243,7 +244,7 @@ Author URI: findkeving.com
 
 #ig-logo {
     position: relative;
-    top: 56px;
+    bottom: 156px;
     height: 51px;
     width: 51px;
 }
@@ -254,16 +255,37 @@ Author URI: findkeving.com
     font-weight: 700;
     color: white;
     position: relative;
-    top: 70px;
+    bottom: 142px;
 }
 
-#social-1 {
-    background: red;
+#social-1-div {
     height: 214px;
     width: 214px;
     float: left;
 }
 
+#social-1-img {
+    max-width: 100%; 
+    height: 100%; 
+    
+}
+
+
+#social-2 {
+
+}
+
+#social-3 {
+
+}
+
+#social-4 {
+
+}
+
+#social-5 {
+    
+}
 
 /* Footer */
 #plant-foot-img {
