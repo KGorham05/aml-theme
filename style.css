@@ -48,6 +48,16 @@ Author URI: findkeving.com
     text-decoration: none !important;
 }
 
+
+#cart-icon:hover svg #Fill_1 {
+    fill: #DDBD59; 
+}
+
+#dropdown-icon:hover svg rect {
+    fill: #DDBD59
+}
+/* Main Content */
+
 #hero-div {
     background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("https://media.istockphoto.com/photos/aerial-view-of-boreal-forest-nature-in-autumn-season-quebec-canada-picture-id1052823792");
     background-repeat: no-repeat;
@@ -193,7 +203,6 @@ Author URI: findkeving.com
     background-size: cover;
     background-position: center;
     height: 350px;
-    
 }
 
 #team-img {
