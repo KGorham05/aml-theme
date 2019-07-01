@@ -270,22 +270,11 @@ Author URI: findkeving.com
     
 }
 
-
-#social-2 {
-
+#social-2, #social-3, #social-4, #social-5 {
+    float: left;
 }
 
-#social-3 {
 
-}
-
-#social-4 {
-
-}
-
-#social-5 {
-    
-}
 
 /* Footer */
 #plant-foot-img {
