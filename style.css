@@ -53,6 +53,11 @@ Author URI: findkeving.com
     fill: #DDBD59; 
 }
 
+#dropdown-icon {
+    background:none;
+    border:none;
+}
+
 #dropdown-icon:hover svg rect {
     fill: #DDBD59
 }
