@@ -59,7 +59,7 @@ Author URI: findkeving.com
 /* Main Content */
 
 #hero-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("https://media.istockphoto.com/photos/aerial-view-of-boreal-forest-nature-in-autumn-season-quebec-canada-picture-id1052823792");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/hero-opt.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -112,7 +112,7 @@ Author URI: findkeving.com
 #lab-div {
     /* max-width: 42.28%; */
     float: left;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("https://media.istockphoto.com/photos/woman-biological-researcher-taking-a-water-sample-picture-id879361588");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/lab-opt.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -136,7 +136,7 @@ Author URI: findkeving.com
 }
 
 #cart-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("https://media.istockphoto.com/photos/electronic-cigarette-on-a-background-of-vape-shop-picture-id1008876306"), no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/carts-opt.jpg"), no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -165,8 +165,9 @@ Author URI: findkeving.com
 }
 
 #terp-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("https://media.istockphoto.com/photos/researcher-in-the-forest-picture-id187613188"), no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/terps-opt.jpg"), no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 60.65%;
     float: left;
     margin-left: .7vw;
