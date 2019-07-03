@@ -62,23 +62,10 @@ Author URI: findkeving.com
     fill: #DDBD59
 }
 
-/* #pop-drop {
-    position: fixed;
-    right: 0;
-    width: 300px;
-    background:blue;
-    
+.dropdown-menu {
+    position: relative !important;
+    top: 200px !important;
 }
-
-div.fixed {
-    position: fixed !important;
-    bottom: 0 !important;  
-    right: 0 !important;
-    width: 300px !important;
-    border: 3px solid #73AD21 !important;
-  } */
-
-
 /* Main Content */
 
 #hero-div {
