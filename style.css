@@ -63,11 +63,7 @@ Author URI: findkeving.com
 }
 
 #pop-drop {
-    height: 100vh;
-    width: 25vw;
-    position: absolute;
-    right: 200px;
-
+    max-width: 150px;
 }
 
 
