@@ -9,36 +9,44 @@
                     width=65 id="hero-flask-logo">
                 <h1 id="hero-title">CLEAN CUT</h1>
                 <h2 id="hero-tag-line">Born from obsession of achieving the perfect balance of aroma and flavor</h2>
-                <button id="hero-btn">SHOP NOW</button>
+                <a id="hero-btn" href="https://aftermathlab.com/shop/">SHOP NOW</a>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <div id="stab-div" class="text-center">
-                    <button class="module cat-btn" id="stab-btn">
-                        <div class="module__top">
-                            <div class="top__content">
-                                <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/plant-icon-white-transparent2-1.png"
-                                    height="20" width="20">
+            <div class="col-md-5">
+                <div id="lab-div" class="text-center">
+                    <form action="https://aftermathlab.com/product-category/lab-supply/">
+                        <button class="module cat-btn" id="lab-btn" type="submit">
+                            <div class="module__top">
+                                <div class="top__content">
+                                    <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/plant-icon-white-transparent2-1.png"
+                                        height="20" width="20">
+                                </div>
                             </div>
-                        </div>
-                        <div class="module__contents">LAB SUPPLY</div>
-                    </button>
+                            <div class="module__contents">LAB SUPPLY</div>
+                        </button>
+                    </form>
+
                 </div>
+            </div>
+            <div class="col-md-7">
                 <div id="cart-div" class="text-center">
-                    <button class="module cat-btn" id="cart-btn">
-                        <div class="module__top">
-                            <div class="top__content">
-                                <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/plant-icon-white-transparent2-1.png"
-                                    height="20" width="20">
+                    <form action="https://aftermathlab.com/product-category/cartridges/">
+                        <button class="module cat-btn" id="cart-btn" type="submit">
+                            <div class="module__top">
+                                <div class="top__content">
+                                    <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/plant-icon-white-transparent2-1.png"
+                                        height="20" width="20">
+                                </div>
                             </div>
-                        </div>
-                        <div class="module__contents">CARTRIDGES</div>
-                    </button>
+                            <div class="module__contents">CARTRIDGES</div>
+                        </button>
+                    </form>
                 </div>
                 <div id="terp-div" class="text-center">
-                    <button class="module cat-btn" id="terp-btn">
+                    <form action="https://aftermathlab.com/product-category/terpenes/">
+                        <button class="module cat-btn" id="terp-btn" type="submit">
                             <div class="module__top">
                                 <div class="top__content">
                                     <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/plant-icon-white-transparent2-1.png"
@@ -47,10 +55,11 @@
                             </div>
                             <div class="module__contents">TERPENES</div>
                         </button>
+                    </form>
                 </div>
                 <div id="equip-div" class="text-center">
-                    <!-- <button id="equip-btn" class="cat-btn">EQUIPMENT</button> -->
-                    <button class="module cat-btn" id="equip-btn">
+                    <form action="https://aftermathlab.com/product-category/equipment/">
+                        <button class="module cat-btn" id="equip-btn" type="submit">
                             <div class="module__top">
                                 <div class="top__content">
                                     <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/plant-icon-white-transparent2-1.png"
@@ -59,11 +68,15 @@
                             </div>
                             <div class="module__contents">EQUIPMENT</div>
                         </button>
+                    </form>
                 </div>
             </div>
+
+
         </div>
     </div>
 
+    <!-- Blog posts -->
     <div class="container">
         <div class="row" id="post-row">
             <div class="col-md-6 padding-back text-center">
@@ -89,6 +102,44 @@
                     voluptas tempore cumque voluptate vitae inventore.</p>
             </div>
         </div>
+
+        <div class="row" id="social-media-row">
+            <div class="col-md-12">
+                <a href="https://www.instagram.com/aftermath_lab/" target="_blank">
+                    <div class="marg-right text-center" id="social-1-div">
+                        <img class="img-fluid" id="social-1-img"
+                            src="http://v2.aftermathlab.com/wp-content/uploads/2019/07/sm1-opt.jpg">
+                        <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/07/Group-3@2x.png" alt="Ig logo"
+                            id="ig-logo">
+                        <p id="ig-tag">@Aftermath_lab</p>
+                    </div>
+                </a>
+
+                <div id="social-2">
+                    <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/07/lemons-opt.jpg" class="marg-right"
+                        height="214" width="214">
+                </div>
+                <div id="social-3">
+                    <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/07/morel-opt.jpg" class="marg-right"
+                        height="214" width="214">
+                </div>
+                <div id="social-4">
+                    <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/07/honey-opt.jpg" class="marg-right"
+                        height="214" width="214">
+                </div>
+                <div id="social-5">
+                    <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/07/oranges-opt.jpg" height="214"
+                        width="214">
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
 
         <?php if ( have_posts() ) :
               while ( have_posts() ) : the_post(); 
@@ -117,19 +168,4 @@
 <?php else : ?>
 <?php endif; ?>
 
-        <div class="row" id="social-media-row">
-            <div class="col-md-12">
-                <img src="" class="marg-right" height="214" width="214">
-                <img src="" class="marg-right" height="214" width="214">
-                <img src="" class="marg-right" height="214" width="214">
-                <img src="" class="marg-right" height="214" width="214">
-                <img src="" height="214" width="214">
-            </div>
-
-        </div>
-
-
-
-    </div>
-
-    <?php get_footer(); ?>
+<?php get_footer(); ?>
