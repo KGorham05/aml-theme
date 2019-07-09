@@ -212,15 +212,15 @@ Author URI: findkeving.com
     margin-top: 120px;
 }
 
-#terpology-img {
+#first-blog-img {
     background: url("http://u.cubeupload.com/kgorham05/blogterpsopt.jpg");
     background-size: cover;
     background-position: center;
     height: 350px;
 }
 
-#team-img {
-    background: url("#");
+#second-blog-img {
+    background: url("http://u.cubeupload.com/kgorham05/beeopt.jpg");
     background-size: cover;
     background-position: center;
     height: 350px;
