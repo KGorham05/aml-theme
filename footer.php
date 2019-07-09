@@ -42,8 +42,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-1">
                     <a href="#">
-                        <img src="http://v2.aftermathlab.com/wp-content/uploads/2019/06/back-to-top-button.png"
-                            height="40" width="40">
+                        <img src="http://u.cubeupload.com/kgorham05/backtotopbuttonopt.jpg" height="40" width="40">
                     </a>
                 </div>
             </div>
