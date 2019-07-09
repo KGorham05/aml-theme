@@ -1,8 +1,8 @@
 /*
-Theme Name: AML Theme 2
+Theme Name: AML Theme
 Theme URI: aftermathlab.com
 Description: Custom theme for AML.
-Version: 1.1
+Version: 1.4
 Author: Kevin Gorham
 Author URI: findkeving.com  
 */
@@ -70,7 +70,7 @@ Author URI: findkeving.com
 /* Main Content */
 
 #hero-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/bottles-lavender-opt-lg.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://u.cubeupload.com/kgorham05/bottleslavenderoptlg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -125,7 +125,7 @@ Author URI: findkeving.com
 #lab-div {
     /* max-width: 42.28%; */
     float: left;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/drop-opt-lg.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://u.cubeupload.com/kgorham05/dropoptlg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@ Author URI: findkeving.com
 }
 
 #cart-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/carts-opt-lg.jpg"), no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://u.cubeupload.com/kgorham05/cartsoptlg.jpg"), no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -178,7 +178,7 @@ Author URI: findkeving.com
 }
 
 #terp-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/terps-opt-lg.jpg"), no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://u.cubeupload.com/kgorham05/terpsoptlg.jpg"), no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 60.65%;
@@ -202,7 +202,7 @@ Author URI: findkeving.com
 }
 
 #equip-div {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/equip-opt-lg.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)), url("http://u.cubeupload.com/kgorham05/equipoptlg.jpg");
     background-size: cover;
     max-width: 36.9%;
     margin-left: .7vw;
@@ -213,14 +213,14 @@ Author URI: findkeving.com
 }
 
 #terpology-img {
-    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/terpologoy-opt.jpg");
+    background: url("http://u.cubeupload.com/kgorham05/blogterpsopt.jpg");
     background-size: cover;
     background-position: center;
     height: 350px;
 }
 
 #team-img {
-    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/06/team-example.jpg");
+    background: url("#");
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -301,7 +301,7 @@ Author URI: findkeving.com
 
 /* Footer */
 #plant-foot-img {
-    background: url("http://v2.aftermathlab.com/wp-content/uploads/2019/07/plants-opt-lg.jpg");
+    background: url("http://u.cubeupload.com/kgorham05/plantsoptlg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: none;
