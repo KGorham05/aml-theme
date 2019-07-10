@@ -243,13 +243,24 @@ Author URI: findkeving.com
     font-weight: 700;
     margin-top: 9px;
     margin-bottom: 9px;
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: none;
 }
 
 .post-text {
     padding-left: 20px;
     padding-right: 20px;
+    color: #4D4D4D;
+    text-decoration: none;
 }
 
+.post-text:hover {
+    text-decoration: none;
+}
 /* Social Media Row */
 
 #social-media-row {
