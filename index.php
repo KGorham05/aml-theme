@@ -109,6 +109,7 @@
             </div>
         </div>
 
+        <!-- Social Media Row --> 
         <div class="row" id="social-media-row">
             <div class="col-md-12">
                 <a href="https://www.instagram.com/aftermath_lab/" target="_blank">
