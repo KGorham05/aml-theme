@@ -7,7 +7,7 @@
             <div id="hero-div" class="text-center">
                 <img src="http://u.cubeupload.com/kgorham05/logoflasktransparent.png" width=65 id="hero-flask-logo" />
                 <h1 id="hero-title">CLEAN CUT</h1>
-                <h2 id="hero-tag-line">Born from obsession of achieving the perfect balance of aroma and flavor</h2>
+                <h2 id="hero-tag-line">Easily adjust extract viscosity to function preperly in your chosen hardware</h2>
                 <a id="hero-btn" href="https://aftermathlab.com/shop/">SHOP NOW</a>
             </div>
         </div>

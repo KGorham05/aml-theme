@@ -19,7 +19,7 @@
 
     <!-- Header -->
     <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://aftermathlab.com/">
             <img src="http://u.cubeupload.com/kgorham05/logohorizontaltransp.png" height="54"
                 width="170" id="logo">
         </a>
