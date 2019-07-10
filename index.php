@@ -80,23 +80,32 @@
         <div class="row" id="post-row">
             <div class="col-md-6 padding-back text-center">
                 <!-- This img is hardcoded - switch to have it pull from most recent blog -->
-                <div id="first-blog-img"></div>
-                <img class="gold-plant-icon"
-                    src="http://u.cubeupload.com/kgorham05/planticongoldwhitebg.jpg"
-                    height="25" width="25">
+                <a href="https://aftermathlab.com/blog">
+                    <div id="first-blog-img"></div>
+                    <img class="gold-plant-icon" src="http://u.cubeupload.com/kgorham05/planticongoldwhitebg.jpg"
+                        height="25" width="25">
                     <!-- Switch this to pull most recent post title -->
-                <h2 class="post-title">Buy Quality</h2>
+                    <h2 class="post-title">Buy Quality</h2>
                     <!-- Switch to pull most recent post summary -->
-                <p class="post-text">Despite cannabis users having more options for consumption than ever before, smoking still reigns supreme as the most common. However vaporizers continue to become more and more ubiquitous. It is easy to see why. Instead of having to roll one up or deal with resiny paraphernalia and pungent smoke, you can enjoy a discreet puff at the click of a button. 
-                </p>
+                    <p class="post-text">Despite cannabis users having more options for consumption than ever before,
+                        smoking still reigns supreme as the most common. However vaporizers continue to become more and
+                        more ubiquitous. It is easy to see why. Instead of having to roll one up or deal with resiny
+                        paraphernalia and pungent smoke, you can enjoy a discreet puff at the click of a button.
+                    </p>
+                </a>
+
             </div>
             <div class="col-md-6 padding-back text-center">
-                <div id="second-blog-img"></div>
-                <img class="gold-plant-icon"
-                    src="http://u.cubeupload.com/kgorham05/planticongoldwhitebg.jpg"
-                    height="25" width="25">
-                <h2 class="post-title">From Plant to Pen: The Process</h2>
-                <p class="post-text">Vape pens are everywhere these days. It’s easy to understand why: they’re convenient, discreet, enjoyable, and effective. But if you’re like me, you’re probably wondering <strong>how do they actually make that stuff?</strong> Well look no further, you’re about to learn the basics of the entire process, from plant to pen.</p>
+                <a href="https://aftermathlab.com/blog">
+                    <div id="second-blog-img"></div>
+                    <img class="gold-plant-icon" src="http://u.cubeupload.com/kgorham05/planticongoldwhitebg.jpg"
+                        height="25" width="25">
+                    <h2 class="post-title">From Plant to Pen: The Process</h2>
+                    <p class="post-text">Vape pens are everywhere these days. It’s easy to understand why: they’re
+                        convenient, discreet, enjoyable, and effective. But if you’re like me, you’re probably wondering
+                        <strong>how do they actually make that stuff?</strong> Well look no further, you’re about to
+                        learn the basics of the entire process, from plant to pen.</p>
+                </a>
             </div>
         </div>
 
